@@ -1,0 +1,291 @@
+@mixin transform($lines){
+    width: 100%;
+    height: 40px;
+    background-color: $lines;
+    justify-content: center;
+    cursor: pointer;
+}
+
+@mixin transform-hover($lines){
+    background-color: $lines;
+}
+
+@mixin circle1-hover($lines){
+    background-color: $lines;
+    width: 70px;
+    border-radius: 70px;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-left: 15px;
+}
+
+@mixin circle2-hover($lines){
+    background-color: $lines;
+    width: 90px;
+    border-radius: 80px;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-left: 15px;
+}
+
+@mixin circle3-hover($lines){
+    background-color: $lines;
+    width: 100px;
+    border-radius: 90px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-left: 15px;
+}
+
+@mixin circle4-hover($lines){
+    background-color: $lines;
+    width: 110px;
+    border-radius: 100px;
+    height: 110px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-left: 15px;
+}
+
+@mixin header($lines1){
+    width: 100%;
+    height: 395px;
+    background-color: $lines1;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    display: flex;
+}
+
+@mixin image($image1){
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100px;  
+}
+
+@mixin footer($footer){
+    background-color: $footer;
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+@mixin circle1($circle1){
+    width: 70px;
+    border-radius: 70px;
+    height: 70px;
+    background-color: $circle1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+@mixin circle2($circle2){
+    width: 90px;
+    border-radius: 80px;
+    height: 90px;
+    background-color: $circle2;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+@mixin circle3($circle3){
+    width: 100px;
+    border-radius: 90px;
+    height: 100px;
+    background-color: $circle3;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+@mixin circle4($circle4){
+    width: 110px;
+    border-radius: 100px;
+    height: 110px;
+    background-color: $circle4;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+@mixin wrapping($row){
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: $row;
+}
+
+
+@mixin body($margin1){
+    margin:0%;
+    background-color: $margin1;
+}
+
+*{
+    @include body(white);
+}
+
+.box{
+    @include header(#8ccff7);
+}
+
+.box1{
+    @include footer(#8ccff7);
+}
+
+.line1{
+    @include transform(#4e89ae);
+}
+
+.line2{
+    @include transform(#43658b);
+}
+
+.line3{
+    @include transform(#ed6663);
+}
+
+.line4{
+    @include transform(#ffa372);
+}
+
+.line1:hover{
+    @include transform(#444);
+}
+
+.line2:hover{
+    @include transform(#444);
+}
+
+.line3:hover{
+    @include transform(#444);
+}
+
+.line4:hover{
+    @include transform(#444);
+}
+
+.circles{
+    @include wrapping(rgb(255, 255, 255));
+}
+
+.circle1{
+    @include circle1(#4e89ae);
+}
+
+.circle2{
+    @include circle2(#43658b);
+}
+
+.circle3{
+    @include circle3(#ed6663);
+}
+
+.circle4{
+    @include circle4(#ffa372);
+}
+
+.circle1:hover{
+    @include circle1-hover(#444);
+}
+
+.circle2:hover{
+    @include circle2-hover(#444);
+}
+
+.circle3:hover{
+    @include circle3-hover(#444);
+}
+
+.circle4:hover{
+    @include circle4-hover(#444);
+}
+
+@mixin breakpoint($minwidth, $maxwidth) {
+    @media screen and (min-width: $minwidth) and (max-width: $maxwidth){
+        @content;
+    }
+}
+
+.circles{
+    @include breakpoint(481px, 800px) {
+      height: auto;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    };
+}
+
+@mixin breakpoint-box($minwidth, $maxwidth) {
+    @media screen and (min-width: $minwidth) and (max-width: $maxwidth){
+        @content;
+    }
+}
+
+.box{
+    @include breakpoint-box(481px, 800px) {
+      height: 295px;
+      width: 100%;
+    };
+}
+
+@mixin breakpoint-lastbox($maxwidth) {
+    @media screen and (max-width: $maxwidth){
+        @content;
+    }
+}
+    
+.box{
+    @include breakpoint-lastbox(480px) {
+      height: 195px;
+      width: 100%;
+    };
+}
+
+@mixin breakpoint-lastcircle($maxwidth) {
+    @media screen and (max-width: $maxwidth){
+        @content;
+    }
+}
+
+.circles{
+    @include breakpoint-lastcircle(480px) {
+      height: auto;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    };
+}

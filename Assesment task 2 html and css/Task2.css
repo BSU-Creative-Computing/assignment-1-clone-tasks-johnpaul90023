@@ -1,0 +1,1329 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+
+*{
+    margin: 0;
+    border: 0;  
+}
+
+header{
+    background-color: rgb(29, 154, 250);
+    height: 75px;
+    width: 100%;
+    overflow: hidden;
+}
+
+header input[type=text] {
+    padding: 4px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+    background: #ffffff;
+}
+
+
+li{
+    float: right;
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 25px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+
+.search { 
+    margin: 17px auto;
+    width: 100%;
+    max-width: 150px;
+    height: 40px; 
+    text-align: left;
+}
+
+h1{
+    float: left;
+    padding: 18px 16px;
+    color: white;
+}
+h2{
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+h3{ 
+    margin-top: 50px;   
+    font-size: 10px;
+    text-align: center;
+}
+
+.box{
+    width: 36%;
+    margin-top: 15px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+    height: 600px;
+}
+
+.box1{
+    width: 19%;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 510px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+}
+
+.box2{
+    width: 19%;
+    height: 510px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+}
+
+.box3{
+    width: 19%;
+    height: 510px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+}
+
+.box4{
+    width: 19%;
+    height: 510px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+}
+
+
+.box a{
+    display: inline-block;
+    color: #ffff;
+    background-color: rgb(29, 154, 250);
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    margin-top: 15px;
+    float: right;
+    margin-top: 200xp;
+}
+
+.box1 a{
+    display: inline-block;
+    color: #ffff;
+    background-color: rgb(29, 154, 250);
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    margin-top: 30px;
+    float: right;
+}
+
+.box2 a{
+    display: inline-block;
+    color: #ffff;
+    background-color: rgb(29, 154, 250);
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    margin-top: 30px;
+    float: right;
+}
+
+.box3 a{
+    display: inline-block;
+    color: #ffff;
+    background-color: rgb(29, 154, 250);
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    margin-top: 30px;
+    float: right;
+}
+
+.box4 a{
+    display: inline-block;
+    color: #ffff;
+    background-color: rgb(29, 154, 250);
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    margin-top: 30px;
+    float: right;
+}
+
+.box p{
+    font-size: 15px;
+    line-height:20px;
+    height: 90px;
+}
+
+.box1 p{
+    font-size: 15px;
+    line-height:20px;
+    height: 90px;
+}
+
+.box2 p{
+    font-size: 15px;
+    line-height:20px;
+    height: 90px;
+}
+
+.box3 p{
+    font-size: 15px;
+    line-height:20px;
+    height: 90px;
+}
+
+.box4 p{
+    font-size: 15px;
+    line-height:20px;
+    height: 90px;
+}
+
+.image1{
+    width: 450px;
+    height: 350px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.image2{
+    width: 240px;
+    height: 300px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    vertical-align: middle;
+}
+
+
+
+.flexcontainer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.flexcontainer1{
+    margin-top: 0%;
+    display: flex;
+    flex-flow: row wrap;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: right;
+    flex: 50%;
+}
+
+.flexcontainer2{
+    margin-top: 0%;
+    display: flex;
+    flex-flow: row wrap;  
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+body{
+    font-family: 'Titillium Web', sans-serif;
+    margin: 0;
+    gap: 0;
+    background-color: #dddbdb
+}
+
+@media screen and (max-width: 1024px) {
+    header {
+        height: auto;
+    }
+   
+    header h1 {
+        float: left;
+        padding: 10px 16px;
+    }
+   
+    header li {
+        float: right;
+    }   
+   
+    .search {
+        margin: 10px auto;
+        float: none;
+    }
+
+    header input[type=text] {
+        margin: 8px auto;
+    }
+
+    h4{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 801px) {
+    header {
+        height: auto;
+    }
+   
+    header h1 {
+        float: left;
+        padding: 10px 16px;
+    }
+   
+    header li {
+        float: right;
+        padding: 15px 16px;
+    }
+   
+    .search {
+        margin: 50px auto;
+        float: none;
+        display: none;
+    }
+
+    header input[type=text] {
+        margin: 10px auto;
+    }
+
+    h4{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1281px) {
+    header {
+        height: auto;
+        width: 1280px;
+    }
+   
+    header h1 {
+        float: left;
+        padding: 10px 16px;
+    }
+   
+    header li {
+        float: right;
+    }
+   
+    .search {
+        margin: 10px auto;
+        float: none;
+    }
+
+    header input[type=text] {
+        margin: 10px auto;
+    }
+
+    h4{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 481px){
+    header {
+        padding-bottom: 40px;
+        padding-right: 650px;
+        margin: 0%;
+        border: 0%;
+    }
+   
+    header h1 {
+        float: left;
+        justify-content: left;
+        margin-top: 20px;
+        margin-left: 10px;
+        font-size: 70px;
+    }
+   
+    header li {
+        float: right;
+        font-size: 50px;
+        justify-content: right;
+        margin-top: 20px;
+        display: none;
+    }
+
+    .last-menu{
+        float: right;
+        display: block;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        text-decoration: none;
+        font-size: 60px;
+        padding-top: 35px;
+    }
+
+    .search {
+        margin: 10px auto;
+        float: none;
+        display: none;
+    }
+
+    header input[type=text] {
+        margin: 10px auto;
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .box{
+        width: 35%;
+        margin-top: 15px;
+        background: #fff;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+        height: 600px;
+    }
+
+    .box1{
+        width: 24%;
+        margin-top: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+        height: 510px;
+        background: #fff;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+    }
+   
+    header h1 {
+        float: left;
+        padding: 10px 16px;
+    }
+   
+    header li {
+        float: right;
+    }
+   
+    .search {
+        margin: 10px auto;
+        float: none;
+    }
+
+    header input[type=text] {
+        margin: 10px auto;
+    }
+
+    h4{
+        display: none;
+    }
+
+    .box2{
+        width: 24%;
+        height: 510px;
+        margin-top: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+        background: #fff;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+    }
+    
+    .box3{
+        width: 24%;
+        height: 510px;
+        margin-top: -70px;
+        margin-left: 10px;
+        margin-right: 10px;
+        background: #fff;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+    }
+    
+    .box4{
+        width: 24%;
+        height: 510px;
+        margin-top: -70px;
+        margin-left: 10px;
+        margin-right: 10px;
+        background: #fff;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+    }
+
+    .box a{
+        display: inline-block;
+        color: #ffff;
+        background-color: rgb(29, 154, 250);
+        text-decoration: none;
+        padding: 10px 15px;
+        border-radius: 4px;
+        margin-top: 15px;
+        float: right;
+        margin-top: 200xp;
+    }
+    
+    .box1 a{
+        display: inline-block;
+        color: #ffff;
+        background-color: rgb(29, 154, 250);
+        text-decoration: none;
+        padding: 10px 15px;
+        border-radius: 4px;
+        margin-top: 30px;
+        float: right;
+    }
+    
+    .box2 a{
+        display: inline-block;
+        color: #ffff;
+        background-color: rgb(29, 154, 250);
+        text-decoration: none;
+        padding: 10px 15px;
+        border-radius: 4px;
+        margin-top: 30px;
+        float: right;
+    }
+    
+    .box3 a{
+        display: inline-block;
+        color: #ffff;
+        background-color: rgb(29, 154, 250);
+        text-decoration: none;
+        padding: 10px 15px;
+        border-radius: 4px;
+        margin-top: 30px;
+        float: right;
+    }
+    
+    .box4 a{
+        display: inline-block;
+        color: #ffff;
+        background-color: rgb(29, 154, 250);
+        text-decoration: none;
+        padding: 10px 15px;
+        border-radius: 4px;
+        margin-top: 30px;
+        float: right;
+    }
+   
+    .flexcontainer2{
+        margin-top: 0%;
+        display: flex;
+        flex-flow: row;  
+        flex-wrap: wrap;
+        justify-content: right;
+        margin-right: 150px;
+        margin-left: 90px;
+    }
+   
+
+    .box p{
+        font-size: 15px;
+        line-height:20px;
+        height: 90px;
+    }
+    
+    .box1 p{
+        font-size: 15px;
+        line-height:20px;
+        height: 90px;
+    }
+    
+    .box2 p{
+        font-size: 15px;
+        line-height:20px;
+        height: 90px;
+    }
+    
+    .box3 p{
+        font-size: 15px;
+        line-height:20px;
+        height: 90px;
+    }
+    
+    .box4 p{
+        font-size: 15px;
+        line-height:20px;
+        height: 90px;
+    }
+    
+    .image1{
+        width: 480px;
+        height: 350px;
+        border-radius: 8px;
+        margin-bottom: 10px;
+    }
+    
+    .image2{
+        width: 330px;
+        height: 300px;
+        border-radius: 8px;
+        margin-bottom: 10px;
+        vertical-align: middle;
+    }
+}
+
+
+@media screen and (max-width: 1281px) and (min-width: 1025px) {
+    .box{
+            width: 37%; 
+            margin-top: 15px;
+            background: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+            height: 600px;
+    }
+
+    .box1{
+        width: 25%;
+        margin-top: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+        height: 510px;
+        background: #fff;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+    }
+    
+    .box2{
+        width: 25%;
+        height: 510px;
+        margin-top: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+        background: #fff;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+    }
+    
+    .box3{
+        width: 25%;
+        height: 510px;
+        margin-top: -70px;
+        margin-left: 10px;
+        margin-right: 10px;
+        background: #fff;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+    }
+    
+    .box4{
+        width: 25%;
+        height: 510px;
+        margin-top: -70px;
+        margin-left: 10px;
+        margin-right: 10px;
+        background: #fff;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+    }
+
+    .box a{
+        display: inline-block;
+        color: #ffff;
+        background-color: rgb(29, 154, 250);
+        text-decoration: none;
+        padding: 10px 15px;
+        border-radius: 4px;
+        margin-top: 15px;
+        float: right;
+    }
+    
+    .box1 a{
+        display: inline-block;
+        color: #ffff;
+        background-color: rgb(29, 154, 250);
+        text-decoration: none;
+        padding: 10px 15px;
+        border-radius: 4px;
+        margin-top: 30px;
+        float: right;
+    }
+    
+    .box2 a{
+        display: inline-block;
+        color: #ffff;
+        background-color: rgb(29, 154, 250);
+        text-decoration: none;
+        padding: 10px 15px;
+        border-radius: 4px;
+        margin-top: 30px;
+        float: right;
+    }
+    
+    .box3 a{
+        display: inline-block;
+        color: #ffff;
+        background-color: rgb(29, 154, 250);
+        text-decoration: none;
+        padding: 10px 15px;
+        border-radius: 4px;
+        margin-top: 30px;
+        float: right;
+    }
+    
+    .box4 a{
+        display: inline-block;
+        color: #ffff;
+        background-color: rgb(29, 154, 250);
+        text-decoration: none;
+        padding: 10px 15px;
+        border-radius: 4px;
+        margin-top: 30px;
+        float: right;
+    }
+   
+    .flexcontainer2{
+        margin-top: 0%;
+        display: flex;
+        flex-flow: row wrap;  
+        flex-wrap: wrap;
+        justify-content: right;
+    }
+
+    body{
+        margin-top: 0%;
+        display: flex;
+        flex-flow: column;  
+        flex-wrap: wrap;
+        justify-content: right;
+    }
+   
+
+    .box p{
+        font-size: 15px;
+        line-height:20px;
+        height: 90px;
+    }
+    
+    .box1 p{
+        font-size: 15px;
+        line-height:20px;
+        height: 90px;
+    }
+    
+    .box2 p{
+        font-size: 15px;
+        line-height:20px;
+        height: 90px;
+    }
+    
+    .box3 p{
+        font-size: 15px;
+        line-height:20px;
+        height: 90px;
+    }
+    
+    .box4 p{
+        font-size: 15px;
+        line-height:20px;
+        height: 90px;
+    }
+    
+    .image1{
+        width: 468px;
+        height: 350px;
+        border-radius: 8px;
+        margin-bottom: 10px;
+    }
+    
+    .image2{
+        width: 320px;
+        height: 310px;
+        border-radius: 8px;
+        margin-bottom: 10px;
+        vertical-align: middle;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 801px) {
+
+    .box{
+            width: 54%;
+            margin-top: 15px;
+            margin-left: 10px;
+            margin-right: 10px;
+            background: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+            height: 600px;
+    }
+
+    .box1{
+        width: 30%;
+        margin-top: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+        height: 510px;
+        background: #fff;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+    }
+    
+    .box2{
+        width: 30%;
+        height: 510px;
+        margin-top: -70px;
+        margin-right: 10px;
+        background: #fff;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+        margin-left: 610px;
+    }
+    
+    .box3{
+        width: 30%;
+        height: 510px;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        background: #fff;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+        margin-left: 610px;
+        
+    }
+    
+    .box4{
+        width: 30%;
+        height: 510px;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        background: #fff;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+        margin-left: 610px;
+        margin-bottom: 100px;
+    }
+
+    .box a{
+        display: inline-block;
+        color: #ffff;
+        background-color: rgb(29, 154, 250);
+        text-decoration: none;
+        padding: 10px 15px;
+        border-radius: 4px;
+        margin-top: 15px;
+        float: right;               
+    }
+    
+    .box1 a{
+        display: inline-block;
+        color: #ffff;
+        background-color: rgb(29, 154, 250);
+        text-decoration: none;
+        padding: 10px 15px;
+        border-radius: 4px;
+        margin-top: 30px;
+        float: right;
+    }
+    
+    .box2 a{
+        display: inline-block;
+        color: #ffff;
+        background-color: rgb(29, 154, 250);
+        text-decoration: none;
+        padding: 10px 15px;
+        border-radius: 4px;
+        margin-top: 30px;
+        float: right;
+    }
+    
+    .box3 a{
+        display: inline-block;
+        color: #ffff;
+        background-color: rgb(29, 154, 250);
+        text-decoration: none;
+        padding: 10px 15px;
+        border-radius: 4px;
+        margin-top: 30px;
+        float: right;
+    }
+    
+    .box4 a{
+        display: inline-block;
+        color: #ffff;
+        background-color: rgb(29, 154, 250);
+        text-decoration: none;
+        padding: 10px 15px;
+        border-radius: 4px;
+        margin-top: 30px;
+        float: right;
+    }
+   
+    body{
+        display: flex;
+        flex-flow: row; 
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .flexcontainer2{
+        margin-top: 0%;
+        padding: 0%;
+        display: inline-flex;
+        flex-direction: row;  
+        flex-wrap: wrap;
+        position:sticky;
+        justify-content: center;
+    }
+   
+
+    .box p{
+        font-size: 15px;
+        line-height:20px;
+        height: 90px;
+    }
+    
+    .box1 p{
+        font-size: 15px;
+        line-height:20px;
+        height: 70px;
+    }
+    
+    .box2 p{
+        font-size: 15px;
+        line-height:20px;
+        height: 70px;
+    }
+    
+    .box3 p{
+        font-size: 15px;
+        line-height:20px;
+        height: 70px;
+    }
+    
+    .box4 p{
+        font-size: 15px;
+        line-height:20px;
+        height: 70px;
+    }
+    
+    .image1{
+        width: 550px;
+        height: 350px;
+        border-radius: 8px;
+        margin-bottom: 10px;
+        vertical-align: middle;
+    }
+    
+    .image2{
+        width: 312px;
+        height: 310px;
+        border-radius: 8px;
+        margin-bottom: 10px;
+        vertical-align: middle;
+    }
+}
+
+@media screen and (max-width: 800px) and (min-width: 481px) {
+    .box{
+            width: 90%;
+            margin-top: 15px;
+            margin-left: 10px;
+            margin-right: 10px;
+            background: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+            height: 650px;
+    }
+
+    .box1{
+        width: 42%;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        height: 30%;
+        background: #fff;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+    }
+    
+    .box2{
+        width: 42%;
+        height: 30%;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        background: #fff;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+    }
+    
+    .box3{
+        width: 42%;
+        height: 30%;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        background: #fff;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+        
+    }
+    
+    .box4{
+        width: 42%;
+        height: 30%;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        background: #fff;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+        margin-bottom: 100px;
+    }
+
+    .box a{
+        display: inline-block;
+        color: #ffff;
+        background-color: rgb(29, 154, 250);
+        text-decoration: none;
+        padding: 10px 15px;
+        border-radius: 4px;
+        margin-top: 15px;
+        float: right;
+
+    }
+    
+    .box1 a{
+        display: inline-block;
+        color: #ffff;
+        background-color: rgb(29, 154, 250);
+        text-decoration: none;
+        padding: 10px 15px;
+        border-radius: 4px;
+        margin-top: 30px;
+        float: right;
+    }
+    
+    .box2 a{
+        display: inline-block;
+        color: #ffff;
+        background-color: rgb(29, 154, 250);
+        text-decoration: none;
+        padding: 10px 15px;
+        border-radius: 4px;
+        margin-top: 30px;
+        float: right;
+    }
+    
+    .box3 a{
+        display: inline-block;
+        color: #ffff;
+        background-color: rgb(29, 154, 250);
+        text-decoration: none;
+        padding: 10px 15px;
+        border-radius: 4px;
+        margin-top: 30px;
+        float: right;
+    }
+    
+    .box4 a{
+        display: inline-block;
+        color: #ffff;
+        background-color: rgb(29, 154, 250);
+        text-decoration: none;
+        padding: 10px 15px;
+        border-radius: 4px;
+        margin-top: 30px;
+        float: right;
+    }
+   
+    body{
+        margin-top: 0%;
+        display: flex;
+        flex-flow: row;  
+        flex-wrap: wrap;
+        justify-content: center ;
+    }
+    
+    .flexcontainer2{
+        margin-top: 0%;
+        display: flex;
+        flex-direction: row;  
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+   
+
+    .box p{
+        font-size: 15px;
+        line-height:20px;
+        height: 90px;
+    }
+    
+    .box1 p{
+        font-size: 15px;
+        line-height:20px;
+        height: 90px;
+    }
+    
+    .box2 p{
+        font-size: 15px;
+        line-height:20px;
+        height: 90px;
+    }
+    
+    .box3 p{
+        font-size: 15px;
+        line-height:20px;
+        height: 90px;
+    }
+    
+    .box4 p{
+        font-size: 15px;
+        line-height:20px;
+        height: 90px;
+    }
+    
+    .image1{
+        width: 720px;
+        height: 450px;
+        border-radius: 8px;
+        margin-bottom: 10px;
+        vertical-align: middle;
+    }
+    
+    .image2{
+        width: 335px;
+        height: 310px;
+        border-radius: 8px;
+        margin-bottom: 10px;
+        vertical-align: middle;
+    }
+}
+
+@media screen and (max-width: 480px) and (min-width: 260px){
+    .box{
+            width: 98%;
+            margin-top: 15px;
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            background: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+            height: 2000px;
+    }
+
+    .box1{
+        width: 98%;
+        margin-top: 45px;
+        margin-left: 10px;
+        margin-right: 10px;
+        height: 2750px;
+        background: #fff;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+    }
+    
+    .box2{
+        width: 98%;
+        height: 2750px;
+        margin-top: 45px;
+        margin-left: 10px;
+        margin-right: 10px;
+        background: #fff;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+    }
+    
+    .box3{
+        width: 98%;
+        height: 2750px;
+        margin-top: 45px;
+        margin-left: 10px;
+        margin-right: 10px;
+        background: #fff;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+        
+    }
+    
+    .box4{
+        width: 98%;
+        height: 2750px;
+        margin-top: 45px;
+        margin-left: 10px;
+        margin-right: 10px;
+        background: #fff;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+        margin-bottom: 200px;
+    }
+
+    .box a{
+        display: inline-block;
+        color: #ffff;
+        background-color: rgb(29, 154, 250);
+        text-decoration: none;
+        padding: 10px 15px;
+        border-radius: 4px;
+        margin-top: 90px;
+        float: right;
+        font-size: 70px;
+        margin-right: 20px;
+    }
+    
+    .box1 a{
+        display: inline-block;
+        color: #ffff;
+        background-color: rgb(29, 154, 250);
+        text-decoration: none;
+        padding: 10px 15px;
+        border-radius: 4px;
+        margin-top: 90px;
+        float: right;
+        font-size: 70px;
+        margin-right: 20px;
+    }
+    
+    .box2 a{
+        display: inline-block;
+        color: #ffff;
+        background-color: rgb(29, 154, 250);
+        text-decoration: none;
+        padding: 10px 15px;
+        border-radius: 4px;
+        margin-top: 90px;
+        float: right;
+        font-size: 70px;
+        margin-right: 20px;
+    }
+    
+    .box3 a{
+        display: inline-block;
+        color: #ffff;
+        background-color: rgb(29, 154, 250);
+        text-decoration: none;
+        padding: 10px 15px;
+        border-radius: 4px;
+        margin-top: 90px;
+        float: right;
+        font-size: 70px;
+        margin-right: 20px;
+    }
+    
+    .box4 a{
+        display: inline-block;
+        color: #ffff;
+        background-color: rgb(29, 154, 250);
+        text-decoration: none;
+        padding: 10px 15px;
+        border-radius: 4px;
+        margin-top: 90px;
+        float: right;
+        font-size: 70px;
+        margin-right: 20px;
+    }
+   
+    body{
+        margin-top: 0%;
+        display: flex;
+        flex-flow: column;  
+        flex-wrap: wrap;
+    }
+    
+    .flexcontainer2{
+        margin-top: 0%;
+        display: flex;
+        flex-direction: column;  
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+   
+
+    .box p{
+        font-size: 70px;
+        line-height: 80px;
+        height: 250px;
+    }
+    
+    .box1 p{
+        font-size: 70px;
+        line-height: 80px;
+        height: 250px;
+    }
+    
+    .box2 p{
+        font-size: 70px;
+        line-height: 80px;
+        height: 250px;
+    }
+    
+    .box3 p{
+        font-size: 70px;
+        line-height: 80px;
+        height: 250px;
+    }
+    
+    .box4 p{
+        font-size: 70px;
+        line-height: 80px;
+        height: 250px;
+    }
+    
+    .image1{
+        width: 1870px;
+        height: 1300px;
+        border-radius: 8px;
+        margin-bottom: 10px;
+        vertical-align: middle;
+    }
+
+    h2{
+        text-align: left;
+        font-size: 100px;
+        margin-bottom: 12px;
+    }
+
+    h3{
+        font-size: 30px;
+        justify-content: center;
+    }
+    
+    .image2{
+        width: 1870px;
+        height: 2000px;
+        border-radius: 8px;
+        margin-bottom: 10px;
+        vertical-align: middle;
+    }
+}
